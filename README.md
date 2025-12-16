@@ -16,27 +16,43 @@ A Java-based desktop application for managing and tracking complaints. Register 
 
 ## Setup & Build
 
-### On Linux/Mac:
+### Quick Start (Easiest Way)
+
+**Windows:**
+```cmd
+build.bat
+java CGClient
+```
+
+**Linux/Mac:**
+```bash
+bash build.sh
+java CGClient
+```
+
+### Step-by-Step Setup
+
+**On Linux/Mac:**
 ```bash
 git clone https://github.com/sandesh-sapkota/Complaint-Management-System.git
 cd Complaint-Management-System
 bash build.sh
-java -cp bin CGClient
+java CGClient
 ```
 
-### On Windows:
+**On Windows:**
 ```cmd
 git clone https://github.com/sandesh-sapkota/Complaint-Management-System.git
 cd Complaint-Management-System
 build.bat
-java -cp bin CGClient
+java CGClient
 ```
 
-### Manual Build:
+**Manual Build:**
 ```bash
 mkdir bin
 javac -source 1.8 -target 1.8 -d bin src/*.java
-java -cp bin CGClient
+java CGClient
 ```
 
 ## How to Use
@@ -67,6 +83,8 @@ Complaint-Management-System/
 ├── bin/                     (Compiled .class files)
 ├── build.sh                 (Build script for Linux/Mac)
 ├── build.bat                (Build script for Windows)
+├── run.sh                   (Run script for Linux/Mac)
+├── run.bat                  (Run script for Windows)
 └── README.md
 ```
 
