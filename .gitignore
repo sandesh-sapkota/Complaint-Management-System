@@ -1,5 +1,14 @@
 # Compiled class file
 *.class
+*.jar
+bin/
+out/
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
 
 # Log file
 *.log
